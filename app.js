@@ -53,13 +53,13 @@ let qoutes = [
 ];
 
 
-// btn.addEventListener('click', function(){
+btn.addEventListener('click', function(){
  
-//     let random = Math.floor(Math.random() * qoutes.length);
+    let random = Math.floor(Math.random() * qoutes.length);
 
-//     qoute.innerText = qoutes[random].qoute;
-//     person.innerText = qoutes[random].person;
-// })
+    qoute.innerText = qoutes[random].qoute;
+    person.innerText = qoutes[random].person;
+})
 
 let letter = ""
 for (qoute in qoutes){
